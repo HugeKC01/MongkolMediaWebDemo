@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact - Mongkol Media</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="Style.css" rel="stylesheet">
+        <link href="Header.css" rel="stylesheet">
+        <link href="Footer.css" rel="stylesheet">
+        <link href="Contact.css" rel="stylesheet">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+   </head>
+
+    <header>
+        <a href="home.html"><img style="width: 125px;" src="SampleLogo.png"></a>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <div class="Hamicon">
+                <p class="Hamicon"><span class="material-symbols-rounded">menu</span>Menu</p>
+            </div>
+            <div class="topnav">
+                <a class="closeicon">
+                    <p style="color: grey;"><span class="material-symbols-rounded">close</span>Close</p>
+                </a>
+                <a href="home.html"><span class="material-symbols-rounded">home</span>Home</a>
+                <a href="portfolio.html"><span class="material-symbols-rounded">collections_bookmark</span>Portfolio</a>
+                <a class="active" href="contact.html"><span class="material-symbols-rounded" style="font-variation-settings: 'FILL' 1;">phone_in_talk</span>Contact</a>
+                <a href="about.html"><span class="material-symbols-rounded">info</span>About</a>
+            </div>
+        </div>
+        <script src="topnav.js"></script>
+    </nav>
+
+    <body>
+        <div class="contactgrid">
+            <div class="contact">
+                <div class="contactinfo">
+                        <h2>บริษัท มงคลมีเดีย จำกัด</h2>
+                        <h3>Mongkol Media Co.,Ltd.</h3><br>
+                        <p style="margin-bottom: 20px;">
+                        มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br>
+                        อาคารเรียนรวม 3 (S13) ชั้น 6 <br>
+                        126 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพฯ 10140<br>
+                        เปิดทำการ : วันจันทร์ – วันศุกร์ เวลา   08.30 น. – 16.30 น.<br></p>
+                        <div class="contactinfo2">
+                            <span class="material-symbols-rounded">email</span>อีเมล : <a href="mailto:mongkolmedia@gmail.com" style="color: white; text-decoration: none;">mongkolmedia@gmail.com</a>
+                        </div>
+                        <div class="contactinfo2">
+                            <span class="material-symbols-rounded">phone</span>โทรศัพท์ : x-xxxx-xxxx
+                        </div>
+                        <div class="contactinfo2">
+                            <span class="material-symbols-rounded">
+                                fax
+                                </span>โทรสาร : x-xxxx-xxxx
+                        </div>
+                    </p>
+                </div>
+                <div class="maps">
+                    <iframe
+                    width="100%"
+                    height="400"
+                    frameborder="0"
+                    style="border:0;"
+                    src="https://www.google.com/maps/embed/v1/place?q=คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี&key=AIzaSyAO3QIfU47OxXSoA5yNqjUNXG3ohNvR6wk"
+                    allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contactform">
+                    <h2>ติดต่อเรา</h2>
+                    <form action="mailto:mongkolmedia@gmail.com" method="post" enctype="text/plain">
+                        <label for="fname">ชื่อ</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="ชื่อของคุณ..">
+                        <br>
+                        <label for="lname">นามสกุล</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="นามสกุลของคุณ.."><br>
+                        <label for="lname">ช่องทางการติดต่อ</label><br>
+                        <input type="text" id="contactinfomation" name="contactinfomation" placeholder="ช่องทางการติดต่อ"><br>
+
+                        <label for="country">ประเทศ</label><br>
+                        <select id="country" name="country">
+                        <option value="thailand">Thailand</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        </select><br>
+                        
+                        <label for="lname">หัวข้อ</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="หัวข้อเรื่องที่ต้องการติดต่อ"><br>
+                        <label for="subject">เรื่องที่ต้องการติดต่อ</label><br>
+                        <textarea id="subject" name="subject" placeholder="เขียนข้อความ.." style="height:200px"></textarea><br>
+
+                        <input type="submit" value="ส่ง">
+                    </form>
+                </div>
+            </div>
+        </div>     
+    </body>
+    
+    <footer>
+        <div class="footer">
+            <div class="socials">
+                <a href="https://www.facebook.com/"><img src="Images\Social Icons\facebook.png" alt="Facebook">
+                <a href="https://www.instagram.com/"><img src="Images\Social Icons\instagram.webp" alt="Instagram">
+                <a href="https://www.x.com/"><img src="Images\Social Icons\x.png" alt="X"></a>
+                <a href="https://www.youtube.com/"><img src="Images\Social Icons\YouTube.webp" alt="Youtube"></a>
+            </div>
+            <p style="font-size: small; margin-top: 10px;">© 2023 Mongkol Media. All Rights Reserved.</p>
+        </div>
+    </footer>
+</html>

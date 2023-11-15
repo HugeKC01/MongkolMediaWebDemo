@@ -1,0 +1,107 @@
+/*Block*/
+.p1block{
+    display: fixed;
+    justify-content: center;
+    background-image: url("Images/Portfolio/Photos/05.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*pargraph*/
+.paragraph1 {
+    overflow-y: hidden;
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.slidersection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    user-select: none;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    gap: 15px;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content
+}
+
+.gallerycard{
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.gallerycard .itemBox{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: block;
+    border-radius: 10px;
+}
+
+.gallerycard .itemBox:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallerycard .itemBox.hide{
+    display: none;
+}
+
+.gallerycard .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.arrow-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.viewmorebtn {
+    background-color: #3D30A2;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

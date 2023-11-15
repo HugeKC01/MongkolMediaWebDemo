@@ -1,0 +1,80 @@
+.contactgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+body {
+    background-image: url("Images/colorlessbg1.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.contact {
+    position: flex;
+    display: grid;
+    flex-wrap: wrap;
+    width:45%;
+    margin: 10px;
+    padding: 50px;
+    background-color: #252525;
+    border-radius: 10px;
+    gap: 5%;
+    min-height: fit-content;
+    flex: 1;
+}
+
+.contactinfo {
+    display: fixed;
+    color: aliceblue;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+    height: fit-content;
+}
+
+.contactinfo2{
+    background-color:#3d30a24d;
+    padding: 5px 5px 5px 10px;
+    margin-top:5px;
+    border-radius: 10px;
+}
+
+.contactform {
+    display: relative;
+    flex-wrap: wrap;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.contactform input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contactform input, textarea, select:focus{
+    outline: none;
+}
+
+.maps {
+    border-radius: 10px;
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+    .contact {
+        width: 100%;
+        flex: auto;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .contact {
+        padding: 10%;
+    }
+}

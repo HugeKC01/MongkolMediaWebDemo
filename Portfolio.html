@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio - Mongkol Media</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="Style.css" rel="stylesheet">
+        <link href="Header.css" rel="stylesheet">
+        <link href="Footer.css" rel="stylesheet">
+        <link href="Gallery.css" rel="stylesheet">
+        <link href="popup.css" rel="stylesheet">
+    </head>
+
+    <header>
+        <a href="home.html"><img style="width: 125px;" src="SampleLogo.png"></a>
+    </header>
+
+    <nav>
+        <div class="navbar">
+            <div class="Hamicon">
+                <p class="Hamicon"><span class="material-symbols-rounded">menu</span>Menu</p>
+            </div>
+            <div class="topnav">
+                <a class="closeicon">
+                    <p style="color: grey;"><span class="material-symbols-rounded">close</span>Close</p>
+                </a>
+                <a href="home.html"><span class="material-symbols-rounded">home</span>Home</a>
+                <a class="active" href="portfolio.html"><span class="material-symbols-rounded" style="font-variation-settings: 'FILL' 1;">collections_bookmark</span>Portfolio</a>
+                <a href="contact.html"><span class="material-symbols-rounded">phone_in_talk</span>Contact</a>
+                <a href="about.html"><span class="material-symbols-rounded">info</span>About</a>
+            </div>
+        </div>
+        <script src="topnav.js"></script>
+    </nav>
+
+    <body>
+        <section>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="drawing">Drawing</li>
+                <li class="list" data-filter="painting">Painting</li>
+                <li class="list" data-filter="graphic">Graphics / Design</li>
+                <li class="list" data-filter="photo">Photos</li>
+            </ul>
+            <div class="product">
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Design\IMG_5411.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Design\IMG_5410.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Design\IMG_5409.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Design\IMG_5408.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="drawing">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Drawing\IMG_3405.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="drawing">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Drawing\IMG_3602.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="painting">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Drawing\IMG_3662.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="painting">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Drawing\IMG_3693.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\213\Photo\IMG_6207.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="drawing">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\220\Drawing\01.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\220\Photo\DSC07192.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\220\Photo\DSC06560.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\220\GF_Design\Mandala Final.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\220\GF_Design\ธนยศ_CMM_65080500220_MAKAZINE_[7]_page-0001.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\258\M.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\258\Mango.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\258\wave.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="painting">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\258\258-เจตพล3.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\271\Grapic Design _ Drawing\Untitled-4.png"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\293\ภาพถ่าย_การฆาตกรรม.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="drawing">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\294(64)\Drawing _ Digital Art\Drawing.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="drawing">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\294(64)\Drawing _ Digital Art\Drawing 2.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="graphic">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\294(64)\Drawing _ Digital Art\Digital art.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Y2_CMM221_Web Dev Project\294(64)\Photo shot\Camera shot art 3.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\01.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\02.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\03.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\04.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\05.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\06.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\07.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\08.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\DSC07148.jpg"   onclick="openModal(src, alt)"></div>
+                <div class="itemBox" data-item="photo">
+                    <img class="thumbnail" src="Images\Portfolio\Photos\DSC07186.jpg"   onclick="openModal(src, alt)"></div>
+                    
+            </div>
+        </section>
+        <script src="Gallery.js"></script>
+        <script src="popupport.js"></script>
+
+        <div id="myModal" class="modal" onclick="closeModal()">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal-image" src="" alt="Popup Image">
+                <div class="caption-container">
+                    <div id="caption" class="caption"></div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <footer>
+        <div class="footer">
+            <div class="socials">
+                <a href="https://www.facebook.com/"><img src="Images\Social Icons\facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="Images\Social Icons\instagram.webp" alt="Instagram"></a>
+                <a href="https://www.x.com/"><img src="Images\Social Icons\x.png" alt="X"></a>
+                <a href="https://www.youtube.com/"><img src="Images\Social Icons\YouTube.webp" alt="Youtube"></a>
+            </div>
+            <p style="font-size: small; margin-top: 10px;">© 2023 Mongkol Media. All Rights Reserved.</p>
+        </div>
+    </footer>
+</html>

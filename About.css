@@ -1,0 +1,88 @@
+.aboutgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.about-1 {
+    display: grid;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-image: url("Images/addd.png");
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    gap: 5%;
+    min-height: fit-content;
+}
+
+.about-1bg {
+    background-image: linear-gradient(to right, #0c060f, #0c060f, #ba82ee00);
+    padding: 50px;
+}
+
+.about-1 .p1 {
+    height:fit-content;
+    color: white;
+    margin:20px;
+    width: 45%;
+    font-size: 35px;
+}
+
+.about-img1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+}
+
+.about-img1 img {
+    height:auto;
+    object-fit: cover;
+    gap: 0;
+}
+
+@media only screen and (max-width: 1400px) {
+    .about-1 .p1 {
+        width: 50%;
+        flex: auto;
+
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .about-1 .p1 {
+        width: 65%;
+        flex: auto;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .about-1 .p1 {
+        width: 75%;
+        flex: auto;
+        margin: 5px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .about-1bg {
+        background-image: linear-gradient(to right,#0c060fd0, #0c060fd0);
+        padding: 50px;
+    }
+    .about-1 .p1 {
+        width: 95%;
+        flex: auto;
+        margin: 5px;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .about-1 .p1 {
+        width: 100%;
+        flex: auto;
+        margin: 5px;
+        font-size: 20px;
+    }
+}

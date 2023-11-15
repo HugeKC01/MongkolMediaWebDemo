@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "IBM Plex Sans Thai";
+    src: url(Font/IBMPlexSansThai-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans Thai";
+    src: url(Font/IBMPlexSansThai-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "IBM Plex Sans Thai";
+}
+
+body {
+    background-image: url("Images/colorlessbg3.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*Icon*/
+
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    display: inline-flex;
+    vertical-align: top;
+    overflow: hidden;
+    padding-right: 2px;
+}
