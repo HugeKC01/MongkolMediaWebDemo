@@ -14,12 +14,11 @@
     text-align: center;
     color: white;
     padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(0, 0, 0, 0.678);
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 45px;
-    font-size: 30px;
+    line-height: 40px;
+    font-size: 23px;
 }
 
 .slidersection {
@@ -104,4 +103,11 @@
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .paragraph1{
+        font-size: 20px;
+        line-height: 40px;
+    }
 }
