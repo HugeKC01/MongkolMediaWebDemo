@@ -1,5 +1,5 @@
 # MongkolMediaWebDemo
 
 Welcome to our University project.<br>
-This project is assign to create demo website of multimedia company portfolio
-Visit demo of this website -> https://mongkolmedia.netlify.app/
+This project is assigned to create a demo website for a multimedia company portfolio.<br>
+Visit the demo of this website -> https://mongkolmedia.netlify.app/
