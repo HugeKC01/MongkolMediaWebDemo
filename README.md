@@ -6,7 +6,7 @@ This project is tasked with creating a demo website for a multimedia company's p
 <br>
 This website created by using HTML, CSS and Javascript
 
-##Website Demo
+## Website Demo
 Visit the demo of this website -> https://mongkolmedia.netlify.app/
 *This website is just a mockup for our project.
 
