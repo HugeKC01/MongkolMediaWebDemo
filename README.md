@@ -11,8 +11,8 @@ Visit the demo of this website -> https://mongkolmedia.netlify.app/
 <br>*This website is just a mockup for our project.
 
 ## Our Team (Contributor)
-King Mongkut’s University of Technology Thonburi<br> 
-Bachelor of Science (Applied Computer Science-Multimedia)<br>
+*King Mongkut’s University of Technology Thonburi<br> 
+*Bachelor of Science (Applied Computer Science-Multimedia)<br>
 Student
 
 1. ภูวนัย คําเนตร
