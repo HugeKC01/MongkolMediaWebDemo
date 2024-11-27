@@ -2,10 +2,19 @@
 
 ## Overview
 Welcome to our University project.<br>
-This project is assigned to create a demo website for a multimedia company portfolio.<br>
-Visit the demo of this website -> https://mongkolmedia.netlify.app/
+This project is tasked with creating a demo website for a multimedia company's portfolio.<br>
+<br>
+This website created by using HTML, CSS and Javascript
 
-## Our Team
+##Website Demo
+Visit the demo of this website -> https://mongkolmedia.netlify.app/
+*This website is just a mockup for our project.
+
+## Our Team (Contributor)
+King Mongkut’s University of Technology Thonburi<br> 
+Bachelor of Science (Applied Computer Science-Multimedia)<br>
+Student
+
 1. ภูวนัย คําเนตร
 2. ปาณิสรา ยังให้ผล 
 3. ญาณิศา ค้าแก้ว 
@@ -16,5 +25,3 @@ Visit the demo of this website -> https://mongkolmedia.netlify.app/
 8. ภัทรพล ทาตุนนท์
 9. ภัทรพล โพธิ์ทอง
 10. คมชาญ เจริญชัยกรณ์
-
-*This website is just a mockup for our project.
