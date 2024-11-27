@@ -8,7 +8,7 @@ This website created by using HTML, CSS and Javascript
 
 ## Website Demo
 Visit the demo of this website -> https://mongkolmedia.netlify.app/
-*This website is just a mockup for our project.
+<br>*This website is just a mockup for our project.
 
 ## Our Team (Contributor)
 King Mongkut’s University of Technology Thonburi<br> 
